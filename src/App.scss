@@ -1,8 +1,9 @@
+$dark-purple: blue;
+
 #root {
-  max-width: 1280px;
   margin: 0 auto;
-  padding: 2rem;
-  text-align: center;
+  min-width: 100%;
+  min-height: 100vh;
 }
 
 .logo {
@@ -16,6 +17,10 @@
 }
 .logo.react:hover {
   filter: drop-shadow(0 0 2em #61dafbaa);
+}
+
+.head {
+  background: $dark-purple;
 }
 
 @keyframes logo-spin {
